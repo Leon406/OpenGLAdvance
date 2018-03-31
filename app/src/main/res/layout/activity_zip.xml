@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fengj" />
+
+    <ll.leon.com.opengladvance.ziptexture.FGLView
+        android:id="@+id/mAni"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ll.leon.com.opengladvance.ziptexture.FGLView>
+
+    <Button
+        android:id="@+id/present"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="present"
+        android:text="赠送跑车" />
+
+</FrameLayout>

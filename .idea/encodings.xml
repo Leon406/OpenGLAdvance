@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/frag.glsl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/frag_cloud.glsl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/frag_earth.glsl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/frag_light.glsl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/frag_tex.glsl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/vertex.glsl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/vertex_cloud.glsl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/vertex_light.glsl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/vertex_tex_x.glsl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/vertex_tex_xie.glsl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/vertex_tex_xy.glsl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/demu/src/main/assets/vertex_cloud.glsl" charset="GBK" />
+  </component>
+</project>

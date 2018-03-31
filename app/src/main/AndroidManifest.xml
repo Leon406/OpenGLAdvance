@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ll.leon.com.opengladvance">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".IndexActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".obj.ObjActivity" />
+        <activity android:name=".mtl.MtlDemoActivity" />
+        <activity android:name=".wave.WaveActivity" />
+        <activity android:name=".mix.MixActivity" />
+        <activity android:name=".mix3d.Mix3dActivity" />
+        <activity android:name=".image.ImageActivity" />
+        <activity android:name=".demo.EarthActivity" />
+        <activity android:name=".fog.FogActivity" />
+        <activity android:name=".ziptexture.ZipActivity" />
+        <activity android:name=".fbo.FBOActivity"/>
+        <activity android:name=".camera.CameraActivity"/>
+    </application>
+
+</manifest>
